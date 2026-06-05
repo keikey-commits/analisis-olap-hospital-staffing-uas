@@ -5,6 +5,8 @@ Proyek Ujian Akhir Semester Data Warehouse Sains Data UNESA 2024E yang menginteg
 Anggota Kelompok 8:
 Ananda Keissa Az Zahra (24031554051), Laili Nurrohmatul Fadhila Z. (24031554093), Eka Putri Maharani (24031554121)
 
+Dataset: https://catalog.data.gov/dataset/hospital-staffing-2009-2013
+
 ---
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/4fbc14e8-02df-4c95-8dcd-b151a7922f0c" />
@@ -30,9 +32,11 @@ Ananda Keissa Az Zahra (24031554051), Laili Nurrohmatul Fadhila Z. (24031554093)
 
 ### 4. Multidimensional Analysis (Atoti OLAP)
 * **DataMart & Cube:** Menginisiasi mesin *in-memory* Atoti untuk menyatukan dimensi kualitatif (Fasilitas, Lokasi) dan metrik kuantitatif (Total Hours).
-* **Interactive Widgets:** Menyajikan *dashboard* visual (*Pivot Tables, Time-Series Line Charts, 100% Stacked Bar Charts*) untuk pelaporan *insight*.
+* **Interactive Widgets:** Menyajikan *dashboard* visual untuk pelaporan *insight*.
 
 ---
+
+<img width="1600" height="841" alt="Image" src="https://github.com/user-attachments/assets/bc369a77-55de-4295-a834-a9cf939a1bb7" />
 
 ## Insight & Analisis Bisnis (OLAP Results)
 <img width="1066" height="735" alt="Image" src="https://github.com/user-attachments/assets/268c089e-ea9c-4f97-abe3-9249fbab3405" />
@@ -44,5 +48,3 @@ Berdasarkan *dashboard* Atoti yang telah dibangun, ditemukan beberapa *insight* 
 2. **Peta Efisiensi Layanan (Treemap):** Distribusi metrik Avg Hours per Patient Day pada tingkat County (Kabupaten) memperlihatkan ketimpangan standar pelayanan. Area dengan rasio sangat tinggi mengindikasikan pemborosan anggaran (overstaffing), sementara rasio yang sangat rendah berisiko pada kelelahan staf medis (understaffing).
 3. **Beban Kerja Berdasarkan Granularitas Waktu (Line Chart):** 
    Visualisasi *Time Series* (Tahun × Kuartal) menunjukkan adanya fluktuasi beban kerja musiman. Wawasan ini krusial bagi manajemen rumah sakit untuk melakukan *capacity planning*, seperti penyesuaian jadwal *shift* atau rekrutmen staf *part-time* pada kuartal yang sibuk.
-   
----
